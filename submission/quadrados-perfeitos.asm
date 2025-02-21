@@ -5,6 +5,7 @@ START   LV /2
         LD N2
         AD IMPAR
 ALTER   K /9100 ; instrução alterada +2 cada vez
+        MM N2
         LV /2
         AD IMPAR
         MM IMPAR
