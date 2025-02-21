@@ -6,9 +6,9 @@ SC /300 ; sub-rotina em 0300
 HM /000 ; return 0
 
 @ /200
-N /100
-RES /102
-I /104
+N K /100
+RES K /102
+I K /104
 
 @ /300
 JP /000 ; início da sub-rotina
