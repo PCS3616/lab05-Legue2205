@@ -10,7 +10,7 @@ START   LV /2
         MM IMPAR
         LV =126
         SB IMPAR
-        JN & /4
+        JN /1C
         JP /0
         HM /0
 
