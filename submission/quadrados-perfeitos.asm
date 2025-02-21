@@ -4,7 +4,7 @@ START   LV /2
         MM ALTER ; saves in future position instruction M(9) 10I
         LD N2
         AD IMPAR
-ALTER   MM /000 ; instrução alterada +2 cada vez
+ALTER   K /9100 ; instrução alterada +2 cada vez
         LV /2
         AD IMPAR
         MM IMPAR
