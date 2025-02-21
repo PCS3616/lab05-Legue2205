@@ -3,13 +3,13 @@ START   LV /2
         AD & /8
         MM & /6 ; saves in future position instruction M(9) 10I
         LD N2
-        AD  IMPAR
-        MM /0FE ; instrução alterada +2 cada vez
+        AD IMPAR
+        MM /000 ; instrução alterada +2 cada vez
         LV /2
         AD IMPAR
         MM IMPAR
-        LV =64
-        SB N2
+        LV =126
+        SB IMPAR
         JN & /4
         JP /0
         HM /0
