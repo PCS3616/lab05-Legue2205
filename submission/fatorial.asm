@@ -30,4 +30,4 @@ MM I ; Mem[0104] = AC --> i = i+1
 SB /110 ; AC -= Mem[0110] --> AC = i-(N+1)
 JN /20E ; if(i-N < 0), repeat
 LD RES ; AC = N!
-RS /200 ; return N! em 102
+RS /300 ; return N! em 102
